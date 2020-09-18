@@ -15,3 +15,9 @@ if (unit <= 30) {
 if (unit <= 60 && unit >= 31) {
   console.log(`Sophmore`)
 };
+if (unit >= 61 && unit <= 90) {
+  console.log(`Junior`)
+};
+if (unit >= 91) {
+  console.log(`Senior`)
+}
